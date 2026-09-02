@@ -1,0 +1,17 @@
+{
+  "name": "Sicherheitseinweisung TESTVERSION",
+  "short_name": "Einweisung TEST",
+  "description": "TESTFASSUNG – Mails gehen ausschließlich an digital-services@wego-vti.de, nicht an die Niederlassung",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#3f0d0d",
+  "theme_color": "#b91c1c",
+  "orientation": "any",
+  "lang": "de",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
