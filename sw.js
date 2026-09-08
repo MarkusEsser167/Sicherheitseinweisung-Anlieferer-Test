@@ -10,7 +10,7 @@
  * installierte Geraete weiter die alte Fassung aus.
  */
 
-const CACHE_NAME = 'sicherheitseinweisung-test-v5';
+const CACHE_NAME = 'sicherheitseinweisung-test-v6';
 const PRECACHE = [
   './',
   './index.html',
@@ -26,6 +26,7 @@ const PRECACHE = [
   './js/db.js',
   './js/pdf.js',
   './js/mail.js',
+  './js/translit.js',
   './js/signature.js',
   './js/views/home.js',
   './js/views/location.js',
