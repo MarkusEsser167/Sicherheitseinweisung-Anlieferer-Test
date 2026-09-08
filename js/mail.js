@@ -42,7 +42,10 @@ function blobToBase64(blob) {
 }
 
 function buildSubject(entry) {
-  const subject = `Sicherheitseinweisung ${entry.plate} – ${entry.locationName}`;
+  // Kennzeichen, Fahrername und Standort: damit laesst sich eine Bestaetigung
+  // schon in der Betreffzeile zuordnen, ohne die Mail zu oeffnen.
+  const subject =
+    `Sicherheitseinweisung ${entry.plate} – ${entry.driverName} – ${entry.locationName}`;
   // Im Betreff erkennbar, damit eine Testmail im Posteingang nicht mit einer
   // echten Bestaetigung verwechselt wird.
   return TEST_RECIPIENT ? `[TEST] ${subject}` : subject;
